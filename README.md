@@ -21,4 +21,4 @@ neg(a+) = (epsilon | (Sigma - a))
 
 neg(x1x2..xn) = x1x2..neg(xn) | x1xn..neg(xn-1).. | neg(x1)x2.. | ..
 
-# You can think about it as a production of 0|1's where 0 is neg and 1 is true, BUT without the whole expression will be 1's (because then it will be true)
+// You can think about it as a production of 0|1's where 0 is neg and 1 is true, BUT without the whole expression will be 1's (because then it will be true)
